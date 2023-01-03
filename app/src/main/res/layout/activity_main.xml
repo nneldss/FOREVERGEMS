@@ -4,211 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#000000">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:orientation="vertical"
-        android:weightSum="8.5"
-        app:layout_constraintBaseline_toBaselineOf="parent">
+    <TextView
+        android:id="@+id/tvTwo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Choose Your Gem"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
 
-        <TextView
-            android:id="@+id/heading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="16dp"
-            android:paddingLeft="100dp"
-            android:text="Forever Gems"
-            android:textColor="#000000"
-            android:textSize="45sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.145"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="239dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTwo"
+        app:srcCompat="@drawable/gold" />
 
-        <TextView
-            android:id="@+id/description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:gravity="center"
-            android:padding="2sp"
-            android:text="@string/select"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="239dp"
+        android:layout_height="207dp"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/silver" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp">
-
-        </RelativeLayout>
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:alignmentMode="alignMargins"
-            android:columnCount="2"
-            android:columnOrderPreserved="false"
-            android:padding="15sp"
-            android:rowCount="2">
-
-
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/Ring"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_row="0"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15sp"
-                android:layout_marginTop="50sp"
-                android:layout_marginRight="15sp"
-                android:layout_marginBottom="25sp"
-                app:cardBackgroundColor="#000000"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:id="@+id/ringphoto"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/ring1" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/Bracelet"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_row="0"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15sp"
-                android:layout_marginTop="50sp"
-                android:layout_marginRight="15sp"
-                android:layout_marginBottom="25sp"
-                app:cardBackgroundColor="#000000"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/bracelet1" />
-            </androidx.cardview.widget.CardView>
-
-        </GridLayout>
-
-        <TextView
-            android:id="@+id/ringbracelet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="monospace"
-            android:gravity="center"
-            android:padding="0sp"
-            android:text="  Ring          Bracelet"
-            android:textAllCaps="true"
-            android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:alignmentMode="alignMargins"
-            android:columnCount="2"
-            android:columnOrderPreserved="false"
-            android:padding="15sp"
-            android:rowCount="2">
-
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/Necklace"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_row="0"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15sp"
-                android:layout_marginTop="50sp"
-                android:layout_marginRight="15sp"
-                android:layout_marginBottom="25sp"
-                app:cardBackgroundColor="#000000"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/necklace2" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/Earrings"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_row="0"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15sp"
-                android:layout_marginTop="50sp"
-                android:layout_marginRight="15sp"
-                android:layout_marginBottom="25sp"
-                app:cardBackgroundColor="#000000"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="8dp">
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/earrings1" />
-            </androidx.cardview.widget.CardView>
-
-        </GridLayout>
-
-
-        <TextView
-            android:id="@+id/Neckear"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="monospace"
-            android:gravity="center"
-            android:padding="0sp"
-            android:text="Necklace        Earrings"
-            android:textAllCaps="true"
-            android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/footing"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="serif-monospace"
-            android:gravity="center"
-            android:paddingTop="20dp"
-            android:text=""
-            android:textAllCaps="true"
-            android:textColor="@color/white"
-            android:textSize="10sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFFFFF"
+        android:text="CVS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,5 @@
 package com.demo.forevergems;
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;

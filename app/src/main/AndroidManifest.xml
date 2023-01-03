@@ -3,36 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.demo.forevergems">
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="FOREVER GEMS"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ForeverGems"
         tools:targetApi="31">
-
         <activity
             android:name=".MainActivity"
             android:exported="true"/>
 
-        <activity
-            android:name=".SplashScreen"
+        <activity android:name=".SplashScreen"
             android:exported="true"
-            android:label="@style/SplashScreen">
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value=""/>
         </activity>
+
+        <activity android:name=".brace"/>
+        <activity android:name=".ear"/>
+        <activity android:name=".ring"/>
+        <activity android:name=".gold"/>
+        <activity android:name=".neck"/>
+        <activity android:name=".silver"/>
+        <activity android:name=".csv"/>
+        <activity android:name=".silverbracelet"/>
+        <activity android:name=".silverearrings"/>
+        <activity android:name=".silvernecklace"/>
+        <activity android:name=".silverring"/>
     </application>
 
 </manifest>

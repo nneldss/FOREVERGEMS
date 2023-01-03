@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/background_splashscreen.xml" value="0.1085" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/fglogo1.xml" value="0.1" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/ic_forevergemslogo.xml" value="0.107" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/ic_untitled_design__3_.xml" value="0.2155" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/round_edittext_background.xml" value="0.107" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/act_bracelet.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/act_necklace.xml" value="0.1" />
@@ -15,9 +18,22 @@
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_ring.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_rlist.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/brace.xml" value="0.21603260869565216" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/chart.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/ear.xml" value="0.264" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/earrings.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/g.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/neck.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/ring.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/rlist.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/s.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/silverbracelet.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/silverearrings.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/silvernecklace.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/silverring.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.214" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2155" />
       </map>
     </option>
   </component>
