@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/background_splashscreen.xml" value="0.1085" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/fglogo1.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/ic_forevergemslogo.xml" value="0.107" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/drawable/round_edittext_background.xml" value="0.107" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/act_bracelet.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/act_necklace.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/act_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_bracelet.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_diamond_cal.xml" value="0.2" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_ring.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/activity_rlist.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/chart.xml" value="0.1" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/earrings.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nelidel Tingson/AndroidStudioProjects/ForeverGems2/app/src/main/res/layout/rlist.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
