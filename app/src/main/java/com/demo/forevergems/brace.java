@@ -17,7 +17,7 @@ public class brace extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ring);
+        setContentView(R.layout.brace);
         checkboxone=findViewById(R.id.yes);
         checkboxtwo=findViewById(R.id.no);
         Button btnCompute = (Button) findViewById(R.id.btn_buy);
@@ -47,7 +47,7 @@ public class brace extends AppCompatActivity implements View.OnClickListener {
             double rawNumber = Double.parseDouble(strNumber);
 
             if (rawNumber >= 10) {
-                double result = (1000 + addon) * rawNumber;
+                double result = (70000 + addon) * rawNumber;
 
                 // Casted result to int type, remove to show decimal value
                 resultMessage = (int) result + " has been Paid | Thank you for Purchasing our Wholesale! ";
@@ -68,7 +68,7 @@ public class brace extends AppCompatActivity implements View.OnClickListener {
 
             }
             else {
-                double result = (1000 + addon) * rawNumber;
+                double result = (70000 + addon) * rawNumber;
                 // Casted result to int type, remove to show decimal value
                 resultMessage = (int) result + "Thank you for Purchasing our Forever Gem Ring";
 
@@ -100,9 +100,9 @@ public class brace extends AppCompatActivity implements View.OnClickListener {
 //1000 is price
 
             if (rawNumber >= 10) {
-                double results = 1000 + addon * rawNumber;
+                double results = (70000 + addon * rawNumber);
                 double percentage = results * 10/100;
-                double result = (1000 + addon) * rawNumber - percentage;
+                double result = (70000 + addon) * rawNumber - percentage;
 
                 // Casted result to int type, remove to show decimal value
                 resultMessage = (int) result + " has been Paid | Thank you for Purchasing our Wholesale! ";
@@ -123,7 +123,7 @@ public class brace extends AppCompatActivity implements View.OnClickListener {
 
             }
             else {
-                double result = (1000 * rawNumber);
+                double result = (70000 * rawNumber);
                 // Casted result to int type, remove to show decimal value
                 resultMessage = (int) result + "Thank you for Purchasing our Forever Gem Ring";
 

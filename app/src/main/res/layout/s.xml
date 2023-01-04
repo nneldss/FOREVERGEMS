@@ -18,7 +18,7 @@
         android:clickable="true"
         android:gravity="center"
         android:padding="5dp"
-        android:src="@drawable/sbracelet"
+        android:src="@drawable/sring"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,7 +33,7 @@
         android:clickable="true"
         android:gravity="center"
         android:padding="5dp"
-        android:src="@drawable/snecklace"
+        android:src="@drawable/sbracelet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
         android:clickable="true"
         android:gravity="center"
         android:padding="5dp"
-        android:src="@drawable/sring"
+        android:src="@drawable/snecklace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.027"
